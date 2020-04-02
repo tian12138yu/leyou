@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38969c7c-b09a-41f7-a6ea-29ea3257a8e9" name="Default Changelist" comment="" />
+    <list default="true" id="38969c7c-b09a-41f7-a6ea-29ea3257a8e9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-registry/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-registry/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-registry/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +22,23 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\idea\leyou\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -35,6 +61,9 @@
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
   <component name="ProjectId" id="1Zt8hpyEarD51NFzTtdlf0kKHF0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,14 +71,23 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/TortoiseSVN/bin/svn.exe" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="G:/BaiduNetdiskDownload/09 微服务电商【黑马乐优商城】/资料/静态原型/leyou-manage-web" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\leyou\ly-common\src\main\java\com\leyou\common\untils" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -73,6 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LyitemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly-item-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyitemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -87,7 +132,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -107,24 +152,131 @@
       <option name="presentableId" value="Default" />
       <updated>1585647151282</updated>
       <workItem from="1585647153766" duration="8018000" />
+      <workItem from="1585712712086" duration="2041000" />
+      <workItem from="1585714837605" duration="10798000" />
+      <workItem from="1585725867438" duration="2766000" />
+      <workItem from="1585738743715" duration="2340000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1585713433447</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585713433447</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第一次提交">
+      <created>1585713654082</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585713654082</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1030" y="198" key="#Project_Structure" timestamp="1585727620024">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1030" y="198" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1585727620024" />
     <state x="1161" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585653070857">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1161" y="342" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1585653070857" />
-    <state x="922" y="182" key="SettingsEditor" timestamp="1585651120384">
+    <state x="1243" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1585722395268">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="922" y="182" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1585651120384" />
-    <state x="669" y="234" key="new project wizard" timestamp="1585652072127">
+    <state x="1243" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1585722395268" />
+    <state x="1171" y="315" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585739120303">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="669" y="234" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1585652072127" />
+    <state x="1171" y="315" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585739120303" />
+    <state x="560" y="134" key="CommitChangelistDialog2" timestamp="1585713649932">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1585713649932" />
+    <state x="787" y="325" key="FileChooserDialogImpl" timestamp="1585728651600">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="787" y="325" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1585728651600" />
+    <state x="781" y="453" width="382" height="174" key="Github.CreateGistDialog" timestamp="1585713362002">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="781" y="453" width="382" height="174" key="Github.CreateGistDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585713362002" />
+    <state width="1293" height="289" key="GridCell.Tab.0.bottom" timestamp="1585741097756">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1293" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585741097756" />
+    <state width="1293" height="289" key="GridCell.Tab.0.center" timestamp="1585741097756">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1293" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585741097756" />
+    <state width="1293" height="289" key="GridCell.Tab.0.left" timestamp="1585741097756">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1293" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585741097756" />
+    <state width="1293" height="289" key="GridCell.Tab.0.right" timestamp="1585741097756">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1293" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585741097756" />
+    <state width="1293" height="289" key="GridCell.Tab.1.bottom" timestamp="1585741097757">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1293" height="289" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585741097757" />
+    <state width="1293" height="289" key="GridCell.Tab.1.center" timestamp="1585741097756">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1293" height="289" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585741097756" />
+    <state width="1293" height="289" key="GridCell.Tab.1.left" timestamp="1585741097756">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1293" height="289" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585741097756" />
+    <state width="1293" height="289" key="GridCell.Tab.1.right" timestamp="1585741097756">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1293" height="289" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585741097756" />
+    <state x="968" y="195" key="Maven.ArtifactSearchDialog" timestamp="1585720249983">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="968" y="195" key="Maven.ArtifactSearchDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585720249983" />
+    <state x="600" y="237" key="NewModule_or_Project.wizard" timestamp="1585714788833">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="600" y="237" key="NewModule_or_Project.wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1585714788833" />
+    <state x="843" y="194" key="SettingsEditor" timestamp="1585728535158">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="843" y="194" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1585728535158" />
+    <state x="552" y="261" key="Vcs.Push.Dialog.v2" timestamp="1585713677552">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="261" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1585713677552" />
+    <state x="791" y="273" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1585713144391">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="791" y="273" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585713144391" />
+    <state x="752" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585713738288">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="752" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1585713738288" />
+    <state x="744" y="331" key="git4idea.merge.GitPullDialog" timestamp="1585713760787">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="744" y="331" key="git4idea.merge.GitPullDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585713760787" />
+    <state x="669" y="216" key="new project wizard" timestamp="1585719628278">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="669" y="216" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1585719628278" />
+    <state x="1139" y="167" key="refactoring.ChangeSignatureDialog" timestamp="1585723063697">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1139" y="167" key="refactoring.ChangeSignatureDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585723063697" />
   </component>
 </project>

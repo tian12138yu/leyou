@@ -7,8 +7,11 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:10086/eureka
+
 zuul:
   prefix: /api
+  routes:
+    item-service: /item/**
 hystrix:
   command:
     default:
