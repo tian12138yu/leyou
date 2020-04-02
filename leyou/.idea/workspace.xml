@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="38969c7c-b09a-41f7-a6ea-29ea3257a8e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-registry/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-registry/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-registry/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-gateway/ly-gateway.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/META-INF/ly-item-service.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="G:/BaiduNetdiskDownload/09 微服务电商【黑马乐优商城】/资料/静态原型/leyou-manage-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -96,7 +96,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LyRegistry">
+  <component name="RunManager" selected="Spring Boot.LyitemApplication">
     <configuration name="LyGateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyGateway" />
@@ -156,6 +156,8 @@
       <workItem from="1585714837605" duration="10798000" />
       <workItem from="1585725867438" duration="2766000" />
       <workItem from="1585738743715" duration="2340000" />
+      <workItem from="1585810367811" duration="998000" />
+      <workItem from="1585811402778" duration="614000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1585713433447</created>
@@ -186,6 +188,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1030" y="198" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1585727620024" />
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585811131043">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585811131043" />
     <state x="1161" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585653070857">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -210,38 +216,54 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="781" y="453" width="382" height="174" key="Github.CreateGistDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585713362002" />
-    <state width="1293" height="289" key="GridCell.Tab.0.bottom" timestamp="1585741097756">
+    <state width="616" height="289" key="GridCell.Tab.0.bottom" timestamp="1585812024089">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585741097756" />
-    <state width="1293" height="289" key="GridCell.Tab.0.center" timestamp="1585741097756">
+    <state width="616" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585812024089" />
+    <state width="616" height="289" key="GridCell.Tab.0.center" timestamp="1585812024089">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585741097756" />
-    <state width="1293" height="289" key="GridCell.Tab.0.left" timestamp="1585741097756">
+    <state width="616" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585812024089" />
+    <state width="616" height="289" key="GridCell.Tab.0.left" timestamp="1585812024089">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585741097756" />
-    <state width="1293" height="289" key="GridCell.Tab.0.right" timestamp="1585741097756">
+    <state width="616" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585812024089" />
+    <state width="616" height="289" key="GridCell.Tab.0.right" timestamp="1585812024089">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585741097756" />
-    <state width="1293" height="289" key="GridCell.Tab.1.bottom" timestamp="1585741097757">
+    <state width="616" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585812024089" />
+    <state width="616" height="289" key="GridCell.Tab.1.bottom" timestamp="1585812024089">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="289" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585741097757" />
-    <state width="1293" height="289" key="GridCell.Tab.1.center" timestamp="1585741097756">
+    <state width="616" height="289" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585812024089" />
+    <state width="616" height="289" key="GridCell.Tab.1.center" timestamp="1585812024089">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="289" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585741097756" />
-    <state width="1293" height="289" key="GridCell.Tab.1.left" timestamp="1585741097756">
+    <state width="616" height="289" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585812024089" />
+    <state width="616" height="289" key="GridCell.Tab.1.left" timestamp="1585812024089">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="289" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585741097756" />
-    <state width="1293" height="289" key="GridCell.Tab.1.right" timestamp="1585741097756">
+    <state width="616" height="289" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585812024089" />
+    <state width="616" height="289" key="GridCell.Tab.1.right" timestamp="1585812024089">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="289" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585741097756" />
+    <state width="616" height="289" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585812024089" />
+    <state width="1293" height="289" key="GridCell.Tab.2.bottom" timestamp="1585811053300">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1293" height="289" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585811053300" />
+    <state width="1293" height="289" key="GridCell.Tab.2.center" timestamp="1585811053300">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1293" height="289" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585811053300" />
+    <state width="1293" height="289" key="GridCell.Tab.2.left" timestamp="1585811053300">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1293" height="289" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585811053300" />
+    <state width="1293" height="289" key="GridCell.Tab.2.right" timestamp="1585811053300">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1293" height="289" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585811053300" />
     <state x="968" y="195" key="Maven.ArtifactSearchDialog" timestamp="1585720249983">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

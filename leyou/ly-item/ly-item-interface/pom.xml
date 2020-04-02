@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>ly-item-interface</artifactId>
+    <groupId>com.leyou.service</groupId>
     <dependencies>
         <dependency>
             <groupId>tk.mybatis</groupId>
