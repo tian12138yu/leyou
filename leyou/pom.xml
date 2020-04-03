@@ -14,6 +14,7 @@
         <module>ly-item/ly-item-interface</module>
         <module>ly-item/ly-item-service</module>
         <module>ly-common</module>
+        <module>ly-upload</module>
     </modules>
     <packaging>pom</packaging>
 

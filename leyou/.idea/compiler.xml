@@ -12,6 +12,7 @@
         <module name="ly-item" />
         <module name="ly-gateway" />
         <module name="ly-item-interface" />
+        <module name="ly-upload" />
         <module name="ly-common" />
         <module name="ly-registry" />
       </profile>

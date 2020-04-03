@@ -3,13 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="38969c7c-b09a-41f7-a6ea-29ea3257a8e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-gateway/ly-gateway.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ly-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/target/classes/META-INF/ly-item-service.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-registry/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-registry/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly-registry/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Git/my_leyou/leyou/leyou" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -96,7 +97,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LyitemApplication">
+  <component name="RunManager" selected="Spring Boot.LyRegistry">
     <configuration name="LyGateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyGateway" />
@@ -114,6 +115,13 @@
     <configuration name="LyitemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly-item-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyitemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly-upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.UploadApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,8 +164,9 @@
       <workItem from="1585714837605" duration="10798000" />
       <workItem from="1585725867438" duration="2766000" />
       <workItem from="1585738743715" duration="2340000" />
-      <workItem from="1585810367811" duration="998000" />
-      <workItem from="1585811402778" duration="614000" />
+      <workItem from="1585809895729" duration="457000" />
+      <workItem from="1585812027289" duration="8153000" />
+      <workItem from="1585895354927" duration="6945000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1585713433447</created>
@@ -184,22 +193,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1030" y="198" key="#Project_Structure" timestamp="1585727620024">
+    <state x="1030" y="198" key="#Project_Structure" timestamp="1585898062302">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1030" y="198" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1585727620024" />
-    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585811131043">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585811131043" />
+    <state x="1030" y="198" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1585898062302" />
     <state x="1161" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585653070857">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1161" y="342" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1585653070857" />
-    <state x="1243" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1585722395268">
+    <state x="1243" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1585815559677">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1243" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1585722395268" />
+    <state x="1243" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1585815559677" />
     <state x="1171" y="315" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585739120303">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -208,66 +213,50 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="560" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1585713649932" />
-    <state x="787" y="325" key="FileChooserDialogImpl" timestamp="1585728651600">
+    <state x="787" y="325" key="FileChooserDialogImpl" timestamp="1585810363921">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="787" y="325" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1585728651600" />
+    <state x="787" y="325" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1585810363921" />
     <state x="781" y="453" width="382" height="174" key="Github.CreateGistDialog" timestamp="1585713362002">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="781" y="453" width="382" height="174" key="Github.CreateGistDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585713362002" />
-    <state width="616" height="289" key="GridCell.Tab.0.bottom" timestamp="1585812024089">
+    <state width="582" height="237" key="GridCell.Tab.0.bottom" timestamp="1585908607576">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="616" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585812024089" />
-    <state width="616" height="289" key="GridCell.Tab.0.center" timestamp="1585812024089">
+    <state width="582" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585908607576" />
+    <state width="582" height="237" key="GridCell.Tab.0.center" timestamp="1585908607576">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="616" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585812024089" />
-    <state width="616" height="289" key="GridCell.Tab.0.left" timestamp="1585812024089">
+    <state width="582" height="237" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585908607576" />
+    <state width="582" height="237" key="GridCell.Tab.0.left" timestamp="1585908607576">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="616" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585812024089" />
-    <state width="616" height="289" key="GridCell.Tab.0.right" timestamp="1585812024089">
+    <state width="582" height="237" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585908607576" />
+    <state width="582" height="237" key="GridCell.Tab.0.right" timestamp="1585908607576">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="616" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585812024089" />
-    <state width="616" height="289" key="GridCell.Tab.1.bottom" timestamp="1585812024089">
+    <state width="582" height="237" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585908607576" />
+    <state width="582" height="237" key="GridCell.Tab.1.bottom" timestamp="1585908607576">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="616" height="289" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585812024089" />
-    <state width="616" height="289" key="GridCell.Tab.1.center" timestamp="1585812024089">
+    <state width="582" height="237" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585908607576" />
+    <state width="582" height="237" key="GridCell.Tab.1.center" timestamp="1585908607576">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="616" height="289" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585812024089" />
-    <state width="616" height="289" key="GridCell.Tab.1.left" timestamp="1585812024089">
+    <state width="582" height="237" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585908607576" />
+    <state width="582" height="237" key="GridCell.Tab.1.left" timestamp="1585908607576">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="616" height="289" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585812024089" />
-    <state width="616" height="289" key="GridCell.Tab.1.right" timestamp="1585812024089">
+    <state width="582" height="237" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585908607576" />
+    <state width="582" height="237" key="GridCell.Tab.1.right" timestamp="1585908607576">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="616" height="289" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585812024089" />
-    <state width="1293" height="289" key="GridCell.Tab.2.bottom" timestamp="1585811053300">
+    <state width="582" height="237" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585908607576" />
+    <state x="968" y="195" key="Maven.ArtifactSearchDialog" timestamp="1585817736291">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1293" height="289" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585811053300" />
-    <state width="1293" height="289" key="GridCell.Tab.2.center" timestamp="1585811053300">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1293" height="289" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585811053300" />
-    <state width="1293" height="289" key="GridCell.Tab.2.left" timestamp="1585811053300">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1293" height="289" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585811053300" />
-    <state width="1293" height="289" key="GridCell.Tab.2.right" timestamp="1585811053300">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1293" height="289" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585811053300" />
-    <state x="968" y="195" key="Maven.ArtifactSearchDialog" timestamp="1585720249983">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="968" y="195" key="Maven.ArtifactSearchDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585720249983" />
+    <state x="968" y="195" key="Maven.ArtifactSearchDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585817736291" />
     <state x="600" y="237" key="NewModule_or_Project.wizard" timestamp="1585714788833">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -288,17 +277,25 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="752" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1585713738288" />
+    <state x="1239" y="247" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585815710149">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1239" y="247" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585815710149" />
     <state x="744" y="331" key="git4idea.merge.GitPullDialog" timestamp="1585713760787">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="744" y="331" key="git4idea.merge.GitPullDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585713760787" />
-    <state x="669" y="216" key="new project wizard" timestamp="1585719628278">
+    <state x="669" y="216" key="new project wizard" timestamp="1585897809528">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="669" y="216" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1585719628278" />
+    <state x="669" y="216" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1585897809528" />
     <state x="1139" y="167" key="refactoring.ChangeSignatureDialog" timestamp="1585723063697">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1139" y="167" key="refactoring.ChangeSignatureDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585723063697" />
+    <state x="166" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1585820952716">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="166" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1585820952716" />
   </component>
 </project>
