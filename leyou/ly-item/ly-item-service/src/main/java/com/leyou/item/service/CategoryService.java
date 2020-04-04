@@ -6,6 +6,7 @@ import com.leyou.item.mapper.CategoryMapper;
 import com.leyou.item.pojo.Category;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
 
 import java.util.List;
 
@@ -26,5 +27,14 @@ public class CategoryService {
             throw new LyException(Enum.CATEGORY_NOT_FOND);
         }
         return select;
+    }
+
+    public List<Category> queryByIds(List<Long> ids){
+        List<Category> list = categoryMapper.selectByIdList(ids);
+        if(CollectionUtils.isEmpty(list)){
+            throw new LyException(Enum.CATEGORY_NOT_FOND);
+        }
+
+        return list;
     }
 }

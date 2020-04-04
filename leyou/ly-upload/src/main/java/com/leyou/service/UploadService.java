@@ -1,8 +1,14 @@
 package com.leyou.service;
 
+import com.github.tobato.fastdfs.domain.StorePath;
+import com.github.tobato.fastdfs.service.FastFileStorageClient;
 import com.leyou.common.exception.Enum;
 import com.leyou.common.exception.LyException;
+import com.leyou.config.UploadProperties;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -19,13 +25,20 @@ import java.util.List;
  */
 @Service
 @Slf4j
+@EnableConfigurationProperties(UploadProperties.class)
 public class UploadService {
-    private static final List<String> allwoType = Arrays.asList("image/jpeg","image/png","image/bmp");
+    @Autowired
+    private UploadProperties properties;
+
+    @Autowired
+    private FastFileStorageClient fileStorageClient;
+
+    //private static final List<String> allwoType = Arrays.asList("image/jpeg","image/png","image/bmp");
     public String uploadImage(MultipartFile file) {
         //保存文件到本地
         try {
             String contentType = file.getContentType();
-            if(!allwoType.contains(contentType)){
+            if(!properties.getAllowTypes().contains(contentType)){
                 throw new LyException(Enum.INVALID_FILE_TYPE);
             }
 
@@ -34,13 +47,13 @@ public class UploadService {
                 throw new LyException(Enum.INVALID_FILE_TYPE);
             }
 
-            File dest = new File("D:\\idea\\leyou\\image", file.getOriginalFilename());
-        //返回路径
-            file.transferTo(dest);
-            return file.getOriginalFilename();
+            String substring = StringUtils.substringAfterLast(file.getOriginalFilename(),".");
+            StorePath storePath = fileStorageClient.uploadFile(file.getInputStream(), file.getSize(), substring, null);
+            //返回路径
+            return properties.getBaseUrl() + storePath.getFullPath();
         } catch (IOException e) {
             e.printStackTrace();
-            log.error("上传文件失败！");
+            log.error("上传文件失败！",e);
             throw new LyException(Enum.UPLOAD_FILE_ERROR);
         }
 
