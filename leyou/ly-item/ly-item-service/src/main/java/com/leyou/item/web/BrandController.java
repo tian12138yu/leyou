@@ -1,5 +1,7 @@
 package com.leyou.item.web;
 
+import com.leyou.common.exception.Enum;
+import com.leyou.common.exception.LyException;
 import com.leyou.common.vo.PageResult;
 import com.leyou.item.pojo.Brand;
 import com.leyou.item.service.BrandService;
@@ -37,5 +39,15 @@ public class BrandController {
         brandService.saveBrand(brand,cids);
         return ResponseEntity.status(HttpStatus.CREATED).build();
 
+    }
+
+    @GetMapping("cid/{cid}")
+    public ResponseEntity<List<Brand>> queryBrandListByCid(@PathVariable("cid") Long cid){
+        List<Brand> brands = brandService.queryBrandByCategory(cid);
+        if(brands.isEmpty()){
+            throw new LyException(Enum.BRAND_NOT_FOUND);
+        }
+
+        return ResponseEntity.ok(brands);
     }
 }

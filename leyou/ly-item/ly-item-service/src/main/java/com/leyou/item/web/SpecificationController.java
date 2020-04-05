@@ -26,4 +26,6 @@ public class SpecificationController {
         return ResponseEntity.ok(specificationService.queryGroupBCid(cid));
     }
 
+
+
 }
